@@ -3,7 +3,13 @@ module.exports = {
   safelist: [
     {
       pattern: /border-[^/]+$/,
-      variants: ['dark', 'hover', 'focus'],
+      variants: [
+        'dark',
+        'hover',
+        'focus',
+        'dark:hover',
+        'dark:focus'
+      ],
     },
   ],
   darkMode: 'class',
